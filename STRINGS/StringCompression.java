@@ -16,9 +16,8 @@ public class StringCompression {
                 count++;
                 i++;
             }
-            if(count > 1){
-                sb.append(count.toString());
-            }
+            
+            sb.append(count.toString());
 
         }
 
