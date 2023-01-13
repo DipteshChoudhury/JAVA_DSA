@@ -172,6 +172,6 @@ public class BitwiseOperations {
     System.out.println("The no. of set bits :- "+countSetBits(10));
 
     //Fast Exponentiation
-    System.out.println("After finding po(a,b) using bitwise :- "+fastExponentiation(2, -1));
+    System.out.println("After finding po(a,b) using bitwise :- "+fastExponentiation(3, 5));
   }  
 }
