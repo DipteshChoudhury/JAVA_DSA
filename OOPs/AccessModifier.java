@@ -13,19 +13,20 @@ public class AccessModifier {
     public static void main(String[] args) {
         BankAccount myAcc = new BankAccount();
         myAcc.username = "DipteshChoudhury";
-        //myAcc.password = "abcd1234";  //It shows error of "The field BankAccount.password is not visible"
-        
+        // myAcc.password = "abcd1234"; //It shows error of "The field
+        // BankAccount.password is not visible"
+
         myAcc.setPassword("hiIamDC");
     }
-    
+
 }
 
-class BankAccount{
+class BankAccount {
     public String username;
     private String password;
-    //We can't access the password variable outside the declared class
+    // We can't access the password variable outside the declared class
 
-    public void setPassword(String pwd){
-        password =pwd;
+    public void setPassword(String pwd) {
+        password = pwd;
     }
 }
