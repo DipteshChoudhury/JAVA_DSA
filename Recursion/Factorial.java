@@ -1,3 +1,4 @@
+
 import java.util.*;
 
 class Factorial {
@@ -24,5 +25,7 @@ class Factorial {
         } else {
             System.out.println("Invalid number!!!");
         }
+
+        sc.close();
     }
 }
