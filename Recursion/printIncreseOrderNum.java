@@ -1,13 +1,17 @@
+/*
+ *Program :- To print 1 to n using recursion
+ */
 import java.util.*;
 
 public class printIncreseOrderNum {
 
     public static void printIn(int n) {
-        if (n == 0) {// base case
+        if (n == 1) {// base case
+            System.out.print(1);
             return;
         }
         printIn(n - 1);// inner call
-        System.out.print(n + ", ");// statement
+        System.out.print(", "+n);// statement
     }
 
     public static void main(String[] args) {

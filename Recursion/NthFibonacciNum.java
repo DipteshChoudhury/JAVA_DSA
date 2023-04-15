@@ -1,13 +1,14 @@
+/*febonacci series :- 0, 1, 1, 2, 3, 5 ,8 ...... 
+ *Program :- To find Nth Fibonacci number using recursion
+ */
+
 import java.util.*;
 
-public class NthFibonacciNum {
+class NthFibonacciNum {
     public static int nFibo(int n) {
-        if (n == 1) {
-            return 1;
-        } else if (n == 2) {
-            return 1;
+        if (n == 0  || n == 1) {
+            return n;
         }
-
         return nFibo(n - 1) + nFibo(n - 2);
     }
 
@@ -16,7 +17,7 @@ public class NthFibonacciNum {
 
         System.out.print("Enter +ve number :- ");
         int n = sc.nextInt();
-
+        
         if (n < 0) {
             System.out.println("Invalid Num!!");
             return;

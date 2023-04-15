@@ -1,4 +1,6 @@
-
+/*
+ *Program :- To find factorial of a number using recursion
+ */
 import java.util.*;
 
 class Factorial {

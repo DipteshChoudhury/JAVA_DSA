@@ -1,6 +1,9 @@
+/*
+ *Program :- To print sum of n nums using recursion
+ */
 import java.util.*;
 
-public class sumNnums {
+class sumNnums {
     public static long sumN(long num) {
         if (num == 0) {
             return 0;

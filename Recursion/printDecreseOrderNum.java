@@ -1,4 +1,6 @@
-
+/*
+ *Program :- To print n to 1 using recursion
+ */
 import java.util.*;
 
 class printDecreseOrderNum {
