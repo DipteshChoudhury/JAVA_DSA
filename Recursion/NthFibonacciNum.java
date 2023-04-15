@@ -17,6 +17,11 @@ public class NthFibonacciNum {
         System.out.print("Enter +ve number :- ");
         int n = sc.nextInt();
 
+        if (n < 0) {
+            System.out.println("Invalid Num!!");
+            return;
+        }
+
         System.out.println(n + "th fibonacci num :- " + nFibo(n));
         sc.close();
     }
