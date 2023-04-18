@@ -1,3 +1,4 @@
+
 /*
  *Program :- To print sum of n nums using recursion
  */
@@ -20,11 +21,13 @@ class sumNnums {
         System.out.print("Enter a num(to find sum of n nums) : ");
         long n = sc.nextLong();
 
+        sc.close();
+
         if (n < 0) {
             System.out.println("Invalid Num!!");
             return;
         }
         System.out.println("Sum of " + n + " nums : " + sumN(n));
-        sc.close();
+
     }
 }
