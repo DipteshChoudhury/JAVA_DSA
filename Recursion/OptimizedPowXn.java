@@ -1,8 +1,8 @@
 
 /*
  * Program : To find X^n using rcursion with optimized time complexity
- * Time Complexity :- O(log n )
- * Space Complexity :- O(log n )
+ * Time Complexity :- O()
+ * Space Complexity :- O()
  */
 
 import java.util.*;

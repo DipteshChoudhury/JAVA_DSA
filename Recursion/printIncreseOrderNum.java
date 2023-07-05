@@ -1,3 +1,4 @@
+
 /*
  *Program :- To print 1 to n using recursion
  */
@@ -11,7 +12,7 @@ public class printIncreseOrderNum {
             return;
         }
         printIn(n - 1);// inner call
-        System.out.print(", "+n);// statement
+        System.out.print(", " + n);// statement
     }
 
     public static void main(String[] args) {
