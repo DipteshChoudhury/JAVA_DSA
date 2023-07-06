@@ -1,6 +1,6 @@
-/* MERGE SORT
- * TIME COMPLEXITY :
- * SPACE COMPLEXITY :
+/* Problem : MERGE SORT
+ * TIME COMPLEXITY : O(nlog n)
+ * SPACE COMPLEXITY :O(n)
  */
 
 public class MergeSort {
@@ -17,13 +17,14 @@ public class MergeSort {
         }
 
         // kaam
-        int mid =  si + (ei - si) / 2; // (si+ei)/2
+        int mid = si + (ei - si) / 2; // (si+ei)/2
         mergeSort(arr, si, mid);// left part
         mergeSort(arr, mid + 1, ei);// right part
 
         merge(arr, si, mid, ei);
     }
 
+    // merge methode to merge left,right sorted array
     public static void merge(int arr[], int si, int mid, int ei) {
         int temp[] = new int[ei - si + 1];
 
